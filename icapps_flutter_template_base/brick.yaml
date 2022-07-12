@@ -1,0 +1,36 @@
+name: icapps_flutter_template_base
+description: Flutter template files
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+
+vars:
+  project_name:
+    type: string
+    description: Name of your project
+    prompt: What is your project name?
+  app_name:
+    type: string
+    description: Name of your app
+    prompt: What is your app name?
+  project_description:
+    type: string
+    description: Description of your project
+    default: An app to do `X`
+    prompt: Project Description?
+  project_package_name:
+    type: string
+    description: Package name/Bundle identifier for android & iOS
+    prompt: What is your package name/bundle identifier?
+  use_todo:
+    type: boolean
+    description: Use todo app implementation
+    default: false
+    prompt: Keep the todo app?
+  use_firebase:
+    type: boolean
+    description: Use firebase
+    default: false
+    prompt: Does your project uses firebase?

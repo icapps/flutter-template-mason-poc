@@ -1,0 +1,5 @@
+bricks:
+  icapps_flutter_template_base:
+    path: icapps_flutter_template_base
+  icapps_gen:
+    path: icapps_gen
